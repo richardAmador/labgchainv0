@@ -1,8 +1,8 @@
-PS C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0> & C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Scripts\python.exe c:/Users/richar.amadorl/Documents/AI_Engineer/LangChain/labgchainv0/langchain_v0.py
+C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0> & C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Scripts\python.exe c:/Users/richar.amadorl/Documents/AI_Engineer/LangChain/labgchainv0/langchain_v0.py
 <sys>:0: UserWarning: Parameters {'seed'} should be specified explicitly. Instead they were passed in as part of `model_kwargs` parameter.
 Traceback (most recent call last):
-  File "c:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\langchain_v0.py", line 18, in <module>
-    chat = ChatOpenAI(model_name = 'gpt-4',
+  File "c:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\langchain_v0.py", line 18, in <module> 
+    chat = ChatOpenAI(model_name = '@azure-openai/gpt-4o-mini',
                       model_kwargs = {'seed':365},
                       temperature = 0,
                       max_tokens = 100)
