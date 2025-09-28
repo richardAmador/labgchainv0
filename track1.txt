@@ -1,6 +1,6 @@
-C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0> & C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Scripts\python.exe c:/Users/richar.amadorl/Documents/AI_Engineer/LangChain/labgchainv0/langchain_v0.py
+ C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0> & C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Scripts\python.exe c:/Users/richar.amadorl/Documents/AI_Engineer/LangChain/labgchainv0/langchain_v0.py
 Traceback (most recent call last):
-  File "c:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\langchain_v0.py", line 16, in <module>
+  File "c:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\langchain_v0.py", line 19, in <module>
     print(chat.invoke("Say hello in one short sentence."))
           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
@@ -54,4 +54,4 @@ Traceback (most recent call last):
                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\richar.amadorl\Documents\AI_Engineer\LangChain\labgchainv0\.venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
     raise self._make_status_error_from_response(err.response) from None
-openai.BadRequestError: Error code: 400 - {'status': 'failure', 'message': 'Either x-portkey-config or x-portkey-provider header is required'}
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: undefined. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
